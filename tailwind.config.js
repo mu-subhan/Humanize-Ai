@@ -3,12 +3,10 @@ module.exports = {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
-      keyframes: {
-        wobble: {
-          '50%': {
-            'border-radius': '250px',
-          },
-        },
+      colors: {
+        darkBlue: '#00062E',
+        textBlueColor: '#00159B',
+        coolColor:'#E5E8F5',
       },
     },
   },
