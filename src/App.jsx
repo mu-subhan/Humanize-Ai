@@ -4,7 +4,8 @@ import Navbar from './components/Navbar';
 import Contact from './components/Contact';
 import ContentSection from './components/ContentSection';
 import Message from './components/Message';
-// import FAQSection from './components/FAQSection';
+import FAQSection from './components/FAQAccordion';
+
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
    <Contact/>
    <ContentSection/>
    <Message/>
-   {/* <FAQSection/> */}
+   <FAQSection/>
    </>
   )
 }

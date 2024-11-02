@@ -8,6 +8,9 @@ module.exports = {
         textBlueColor: '#00159B',
         coolColor:'#E5E8F5',
       },
+      fontFamily: {
+        sans: ['Poppins', 'sans-serif'], 
+      },
     },
   },
   plugins: [],
