@@ -6,7 +6,7 @@ function Message() {
             <h1 className="pt-6 text-2xl font-bold text-center text-textBlueColor">
                 Please leave your contact details and inquiry below
             </h1>
-            <div className="mt-10 max-w-4xl mx-auto">
+            <div className="mt-10 max-w-6xl mx-auto">
                 <form className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
                     <input 
                         className="bg-gray-300 px-5 w-full h-14 rounded-2xl" 
@@ -30,7 +30,7 @@ function Message() {
                     />
                     
                     <textarea 
-                        className="bg-gray-300 px-5 py-3 w-full h-48 rounded-2xl col-span-1 md:col-span-2 mt-4" 
+                        className="bg-gray-300 px-5 py-3 w-full h-52 rounded-2xl col-span-1 md:col-span-2 mt-4" 
                         placeholder="Enter your comments" 
                     />
 

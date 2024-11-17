@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import questionIcon from "../images/question.png"; // Make sure this path is correct
 
 // Data for the FAQ section
 const faqData = [
@@ -23,19 +24,23 @@ const faqData = [
 // FAQ Accordion Component
 function FAQAccordion({ question, answer, isOpen, onToggle }) {
     return (
-        <div className="font-sans pb-4">
+        <div className="pb-4">
             <button
                 onClick={onToggle}
-                className="w-full text-left flex justify-between items-center py-4 px-6 bg-slate-100 text-blue-800 text-lg font-semibold rounded-lg focus:outline-none"
+                className="w-full text-left flex justify-between items-center py-4 px-6 bg-slate-200 text-blue-800 text-lg font-semibold rounded-[19px] focus:outline-none"
             >
                 <span>{question}</span>
                 <span>{isOpen ? "✕" : "+"}</span>
             </button>
-            {isOpen && (
-                <div className="px-6 py-4 bg-slate-100 text-gray-700">
+            <div
+                className={`transition-[height] duration-300 ease-in-out overflow-hidden ${
+                    isOpen ? "h-auto" : "h-0"
+                }`}
+            >
+                <div className="px-6 py-4 bg-slate-100 text-[#747474] border rounded-xl">
                     {answer}
                 </div>
-            )}
+            </div>
         </div>
     );
 }
@@ -50,15 +55,18 @@ function FAQSection() {
 
     return (
         <div className="bg-gray-50 min-h-screen flex flex-col items-center py-12 px-6 lg:px-48">
-            <div className="bg-textBlueColor text-white text-xs font-semibold px-4 py-2 rounded-full mb-4">
+        
+            <div className="bg-textBlueColor w-[100px] h-[40px] text-white text-[17px] font-semibold px-4 py-2 rounded-[10px] mb-4 flex justify-center items-center">
+                <img src={questionIcon} alt="Question Icon" className="w-6 h-6 mr-2 text-white fill-current" />
                 FAQs
             </div>
             <h2 className="text-3xl font-bold text-textBlueColor text-center mb-4">
                 Frequently Asked Questions
             </h2>
-            <p className="text-center text-textBlueColor mb-8">
-                Find questions and answers related to the design system, purchase, updates, and support.
-            </p>
+            <p className="text-center text-[#8F8F8F8F] font-[400] text-base sm:text-lg md:text-xl mb-4 sm:mb-6 lg:mb-8 w-full sm:w-[500px] md:w-[610px]">
+    Find questions and answers related to the design system, purchase, updates, and support.
+</p>
+
             <div className="w-full max-w-2xl">
                 {faqData.map((faq, index) => (
                     <FAQAccordion
