@@ -23,7 +23,7 @@ const faqData = [
 // FAQ Accordion Component
 function FAQAccordion({ question, answer, isOpen, onToggle }) {
     return (
-        <div className="border-b border-gray-300 font-sans">
+        <div className="font-sans pb-4">
             <button
                 onClick={onToggle}
                 className="w-full text-left flex justify-between items-center py-4 px-6 bg-slate-100 text-blue-800 text-lg font-semibold rounded-lg focus:outline-none"
