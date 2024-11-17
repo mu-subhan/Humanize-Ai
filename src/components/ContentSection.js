@@ -3,9 +3,9 @@ import group from '../images/Group 52.png';
 
 const ContentSection = () => {
   return (
-    <div className="font-sans flex flex-col md:flex-row items-center justify-center md:justify-between px-6 md:px-12 lg:px-48 py-12">
+    <div className="font-sans flex flex-col md:flex-row items-center justify-center md:justify-between px-6 md:px-12 lg:px-40 py-12 max-w-full mx-auto">
       
-      <div className="max-w-lg mb-8 md:mb-0 text-center md:text-left"> {/* Center text on mobile */}
+      <div className="max-w-lg mb-8 md:mb-0 text-center md:text-left"> 
         <h1 className="text-3xl md:text-4xl font-bold text-gray-900">
           Ready to <span className="text-textBlueColor">Humanize</span> AI Content?
         </h1>
