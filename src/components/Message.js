@@ -2,7 +2,7 @@ import React from "react";
 
 function Message() {
     return (
-        <div className="bg-slate-200 font-sans min-h-screen px-4 py-10">
+        <div className="bg-slate-200 font-[Poppins] min-h-screen px-4 py-10">
             <h1 className="pt-6 text-2xl font-bold text-center text-textBlueColor">
                 Please leave your contact details and inquiry below
             </h1>

@@ -24,7 +24,7 @@ const faqData = [
 // FAQ Accordion Component
 function FAQAccordion({ question, answer, isOpen, onToggle }) {
     return (
-        <div className="pb-4">
+        <div className="pb-4 font-[Poppins]">
             <button
                 onClick={onToggle}
                 className="w-full text-left flex justify-between items-center py-4 px-6 bg-slate-200 text-blue-800 text-lg font-semibold rounded-[19px] focus:outline-none"
@@ -54,7 +54,7 @@ function FAQSection() {
     };
 
     return (
-        <div className="bg-gray-50 min-h-screen flex flex-col items-center py-12 px-6 lg:px-48">
+        <div className="bg-gray-50 font-[Poppins] min-h-screen flex flex-col items-center py-12 px-6 lg:px-48">
         
             <div className="bg-textBlueColor w-[100px] h-[40px] text-white text-[17px] font-semibold px-4 py-2 rounded-[10px] mb-4 flex justify-center items-center">
                 <img src={questionIcon} alt="Question Icon" className="w-6 h-6 mr-2 text-white fill-current" />

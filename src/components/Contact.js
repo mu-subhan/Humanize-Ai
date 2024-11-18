@@ -2,7 +2,7 @@ import React from 'react';
 
 const Contact = () => {
   return (
-    <header className="text-center py-16 bg-coolColor h-auto font-sans max-w-full mx-auto">
+    <header className="text-center py-16 bg-coolColor h-auto font-[Poppins] max-w-full mx-auto">
  <h1 className="text-4xl font-bold text-darkBlue drop-shadow-xl">
   Contact Us
 </h1>
