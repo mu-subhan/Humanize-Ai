@@ -3,6 +3,9 @@ import './App.css';
 import Navbar from './components/Navbar';
 import About from "./components/About/About"
 import Steps from './components/About/Steps';
+import TrustSection from './components/About/TrustSection';
+
+
 // import Contact from './components/Contact';
 // import ContentSection from './components/ContentSection';
 // import Message from './components/Message';
@@ -15,6 +18,7 @@ function App() {
    <Navbar/>
    <About/>
    <Steps/>
+   <TrustSection/>
    {/* <Contact/>
    <ContentSection/>
    <Message/>
