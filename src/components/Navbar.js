@@ -23,9 +23,9 @@ const Navbar = () => {
   
           <a href="#" className="">AI Detector</a>
   
-          <a href="#" className="text-[#7F90FF]">Contact Us</a>
+          <a href="#" className="">Contact Us</a>
   
-          <a href="#" className="">About</a>
+          <a href="#" className="text-[#7F90FF]">About</a>
 
          
         </div>
