@@ -5,7 +5,7 @@ import security from "../../images/Group 475.png";
 import customer from "../../images/Group 473.png";
 const TrustSection = () => {
   return (
-    <div className='bg-[#00062E] max-w-full w-auto h-[813px]' >
+    <div className='bg-[#00062E] max-w-full w-auto h-[860px]' >
        <div className='text-white text-center py-16'>
         <h1 className="text-6xl font-bold">
   Building <span className="text-[#7f90ff]">Trust</span> with Every User
