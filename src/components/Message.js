@@ -6,7 +6,7 @@ function Message() {
             <h1 className="pt-6 text-2xl font-bold text-center text-textBlueColor">
                 Please leave your contact details and inquiry below
             </h1>
-            <div className="mt-10 max-w-7xl mx-auto">
+            <div className="mt-10 max-w-8xl staxl mx-auto md:px-32 ">
                 <form className="grid grid-cols-1 md:grid-cols-2 gap-4 w-full">
                     <input 
                         className="bg-gray-300 px-5 w-full h-14 rounded-2xl" 

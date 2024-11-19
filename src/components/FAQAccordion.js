@@ -27,7 +27,9 @@ function FAQAccordion({ question, answer, isOpen, onToggle }) {
         <div className="pb-4 font-[Poppins]">
             <button
                 onClick={onToggle}
-                className="w-full text-left flex justify-between items-center py-4 px-6 bg-slate-200 text-blue-800 text-lg font-semibold rounded-[19px] focus:outline-none"
+                className={`w-full text-left flex justify-between items-center py-4 px-6 bg-slate-200 text-blue-800 text-lg font-semibold focus:outline-none ${
+                    isOpen ? "rounded-t-[19px]" : "rounded-[19px]"
+                }`}
             >
                 <span>{question}</span>
                 <span>{isOpen ? "✕" : "+"}</span>
@@ -37,13 +39,18 @@ function FAQAccordion({ question, answer, isOpen, onToggle }) {
                     isOpen ? "h-auto" : "h-0"
                 }`}
             >
-                <div className="px-6 py-4 bg-slate-100 text-[#747474] border rounded-xl">
+                <div
+                    className={`px-6 py-4 bg-slate-200 text-[#747474] border ${
+                        isOpen ? "rounded-b-[19px]" : "rounded-none"
+                    }`}
+                >
                     {answer}
                 </div>
             </div>
         </div>
     );
 }
+
 
 // Main FAQ Component
 function FAQSection() {
