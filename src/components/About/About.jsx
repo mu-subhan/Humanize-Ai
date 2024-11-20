@@ -20,7 +20,7 @@ const About = () => {
 
 
       {/* Description Section */}
-      <p className="text-black px-6 sm:px-12 lg:px-24 xl:px-36 text-justify text-base sm:text-lg md:text-xl leading-relaxed">
+      <p className="text-black px-6 sm:px-12 lg:px-24 xl:px-52 text-center text-base sm:text-lg md:text-xl leading-relaxed">
         AI To Human Text Converter is an online Humanize AI Text tool used to
         convert Artificial Intelligence content to human-like content without
         altering its meaning. With this cutting-edge technology, you can skip AI
@@ -33,7 +33,7 @@ const About = () => {
     
      
       {/* Subtitle Section */}
-      <h3 className="text-3xl font-bold py-20 text-[#00159B]">
+      <h3 className="text-3xl font-bold pt-20 pb-10 text-[#00159B]">
         How to Use Our AI to Human Text Converter?
       </h3>
     </header>
