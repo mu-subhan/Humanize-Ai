@@ -1,16 +1,16 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar';
-import PricePlan from './components/AiDectector/PricePlan';
-import Cards from './components/AiDectector/Cards';
+// import PricePlan from './components/AiDectector/PricePlan';
+// import Cards from './components/AiDectector/Cards';
 
 
 
-// import About from "./components/About/About"
-// import Steps from './components/About/Steps';
-// import TrustSection from './components/About/TrustSection';
-// import Working from './components/About/Working';
-// import Benifits from './components/About/Benifits';
+import About from "./components/About/About"
+import Steps from './components/About/Steps';
+import TrustSection from './components/About/TrustSection';
+import Working from './components/About/Working';
+import Benifits from './components/About/Benifits';   
 
 
 // import Contact from './components/Contact';
@@ -23,15 +23,25 @@ function App() {
   return (
    <>
    <Navbar/>
-   <PricePlan/>
-   <Cards/>
-
-
    {/* <About/>
    <Steps/>
    <TrustSection/>
    <Working/>
-   <Benifits/> */}
+   <Benifits/>  */}
+
+
+
+   {/* <PricePlan/>
+   <Cards/> */}
+
+
+   
+   <About/>
+   <Steps/>
+   <TrustSection/>
+   <Working/>
+   <Benifits/> 
+  
 
 
 
