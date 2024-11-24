@@ -34,7 +34,7 @@ const Steps = () => {
   />
   {/* Step Text */}
   <p className="text-[#00159B] text-center text-lg sm:text-xl font-medium leading-6">
-    Paste your AI Generated content into the box.
+  Select your text language and fill in the image captcha code.
   </p>
 </div>
 
@@ -48,7 +48,7 @@ const Steps = () => {
   />
   {/* Step Text */}
   <p className="text-[#00159B] text-center text-lg sm:text-xl font-medium leading-6">
-    Paste your AI Generated content into the box.
+  Now Click the humanize button. That's it.
   </p>
 </div>
 
@@ -62,7 +62,7 @@ const Steps = () => {
   />
   {/* Step Text */}
   <p className="text-[#00159B] text-center text-lg sm:text-xl font-medium leading-6">
-    Paste your AI Generated content into the box.
+  Our Ai text humanizer easily Humanizes your Ai text into human form.
   </p>
 </div>
 

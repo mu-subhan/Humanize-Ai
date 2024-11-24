@@ -2,7 +2,7 @@ import React from "react";
 
 const Benefits = () => {
   return (
-    <div className="bg-[#E7EAF0] py-24 px-4 sm:px-12 lg:px-24 xl:px-20 font-[Poppins]">
+    <div className="bg-[#00159B1A] py-24 px-4 sm:px-12 lg:px-24 xl:px-20 font-[Poppins]">
      {/* First Section */}
 <div className="grid grid-cols-1 md:grid-cols-2 gap-8 px-4 md:px-0">
   {/* Left Column */}

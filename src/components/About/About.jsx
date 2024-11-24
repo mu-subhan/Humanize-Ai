@@ -4,8 +4,8 @@ const About = () => {
   return (
     <header className="text-center h-auto font-[Poppins] max-w-full mx-auto">
       {/* Header Section */}
-      <div className="flex items-center justify-center h-[137px] bg-[#E7EAF0]">
-        <h1 className="text-4xl font-bold text-[#00159B] drop-shadow-xl">
+      <div className="flex items-center justify-center h-[137px] bg-[#00159B1A] shadow-lg">
+        <h1 className="text-4xl font-bold text-[#00159B] ">
           About Us
         </h1>
       </div>
