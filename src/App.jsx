@@ -31,8 +31,8 @@ function App() {
 
 
 
-   <PricePlan/>
-   <Cards/>
+    <PricePlan/>
+   <Cards/> 
 
 
 
