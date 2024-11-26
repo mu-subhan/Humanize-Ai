@@ -8,7 +8,7 @@ const Steps = () => {
   return (
     <div className="bg-slate-200 font-[Poppins] py-16 ">
       {/* Responsive Grid Layout */}
-      <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto py-8">
+      <div className="grid grid-cols-1 px-6 gap-8 sm:grid-cols-2 lg:grid-cols-4 max-w-7xl mx-auto py-8">
 
 {/* Step 1 */}
 <div className="border border-blue-800 rounded-lg flex flex-col justify-center items-center p-6 w-full max-w-[310px] mx-auto sm:px-4 lg:h-60">
